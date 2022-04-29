@@ -124,6 +124,8 @@ li.tweet.white{
   padding :10px;
   list-style:none;
   width : 60vw;
+  display:flex;
+  flex-direction: column;
   
 }
 
@@ -140,14 +142,17 @@ li.tweet.white{
 
 }
 
-.tweet__createdAt{
-  display:flex;
+.tweet__createdAt {
+  font-size:1.2vh;
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 2vw;
-  font-size: smaller;
-  margin-bottom : 0.5vh;
-
+  
+  margin-bottom : 0.4vh;
+  align-self: flex-end;
+  position: relative;
+  bottom:3vh;
+  
 }
 
 .tweet__message{
