@@ -161,13 +161,14 @@ li.tweet.white{
   font-size:1.2vh;
   display:flex;
   padding-right: 2vw;
+  padding-left:2vw;
   padding-bottom : 0.8vh;
   margin-bottom: 5px;
   align-self: flex-end;
   position: relative;
   bottom:calc(1.1vh + 18px);
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
   
 }
 
