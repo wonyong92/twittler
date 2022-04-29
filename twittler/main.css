@@ -21,29 +21,6 @@
   padding: 0.3em;
 }
 
- 
-
-#tweetWrapper{
-  
-  background-color: rgba(20, 248, 77, 0);
-  
-
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top : 0.5%;
-  padding-bottom : 0.5%;
-  padding-left : 1%;
-  padding-right : 1%;
-  row-gap: 1vh;
-}
-li.tweet.white{
-  border : 2px solid rgba(3, 87, 21, 0.212);
-  padding :10px;
-  list-style:none;
-  width : 60vw;
-  
-}
 #top-area {
   padding-top : 2vh;
   background-color: rgba(19, 40, 107, 0.062);  
@@ -51,23 +28,6 @@ li.tweet.white{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#usernameInput{
-  width: 10vw;
-}
-#messageInput{
-  
-  width: 30vw;
-  
-}
-.tweet__message{
-  word-break: break-word;
-}
-#username{
-  font-family: 'Tapestry', cursive;
-}
-#message{
-  font-family: 'Tapestry', cursive;
 }
 
 #usernamespace{
@@ -86,6 +46,85 @@ li.tweet.white{
   align-content: center;
   justify-items: center;
   align-items: center;
+}
+
+#usernameInput{
+  width: 10vw;
+}
+#messageInput{
+  
+  width: 60vw;
+  
+}
+
+#tweetWrapper{
+  
+  background-color: rgba(20, 248, 77, 0);
+  
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top : 0.5%;
+  padding-bottom : 0.5%;
+  padding-left : 1%;
+  padding-right : 1%;
+  row-gap: 1vh;
+}
+
+.tweet__message{
+  word-break: break-word;
+}
+#username{
+  font-family: 'Tapestry', cursive;
+}
+#message{
+  font-family: 'Tapestry', cursive;
+}
+
+
+#tweetButton{
+  margin-top :0.3vh;
+  font-family: 'Oxygen', sans-serif;
+  font-size : 20px;
+  border-radius: 1em;
+  color: white;
+  background-color: rgba(11, 146, 117, 0.856);
+  text-shadow: 0 0 5px #333;
+  width : 160px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+#tweetbuttonarea2{
+  align-self:flex-start;
+  margin : 0.5vw;
+  position : fixed;
+  
+}
+
+
+#randomButton{
+  padding-top : 30px;
+  padding-left : 20px;
+  border : 0px;
+  background-color: rgba(235, 10, 104, 0);
+  border-radius :100%;
+  height : 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+li.tweet.white{
+  border : 2px solid rgba(3, 87, 21, 0.212);
+  padding :10px;
+  list-style:none;
+  width : 60vw;
+  
 }
 
 .tweet__username{
@@ -114,34 +153,5 @@ li.tweet.white{
 .tweet__message{
   display:flex;
   justify-content: center;
-}
-#tweetButton{
-  margin-top :0.3vh;
-  font-family: 'Oxygen', sans-serif;
-  font-size : 20px;
-  border-radius: 1em;
-  color: white;
-  background-color: rgba(11, 146, 117, 0.856);
-  text-shadow: 0 0 5px #333;
-  width : 160px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-#tweetbuttonarea2{
-  align-self:flex-start;
-  margin : 0.5vw;
-  position : fixed;
-  
-}
-#randomButton{
-  padding-top : 30px;
-  padding-left : 20px;
-  border : 0px;
-  background-color: rgba(235, 10, 104, 0);
-  border-radius :100%;
-  height : 30px;
-  width: 30px;
-  justify-content: center;
-  align-items: center;
-
+  font-size:medium;
 }
