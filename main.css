@@ -147,7 +147,7 @@ li.tweet.white{
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 2vw;
-  
+  padding-bottom : 1vh;
   
   align-self: flex-end;
   position: relative;
