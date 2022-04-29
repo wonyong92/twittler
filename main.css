@@ -130,6 +130,7 @@ li.tweet.white{
 }
 
 .tweet__username{
+  flex-basis:20px ;
   display : block;
   background-color: rgba(17, 143, 160, 0.11);
   margin : 1vh;
@@ -138,22 +139,22 @@ li.tweet.white{
   font-weight: 900;
   border-bottom : 1px solid black;
   height : 3.2vh;
-  padding-left:1%
+  padding-left:1%;
+  padding-bottom:0.1%;
 
 }
 
 .tweet__createdAt {
   font-size:1.2vh;
-  flex-direction: row;
-  justify-content: flex-end;
+  display:flex;
   padding-right: 2vw;
   padding-bottom : 0.8vh;
   margin-bottom: 5px;
   align-self: flex-end;
   position: relative;
-  bottom:3vh;
-  justify-content: center;
-  align-content: center;
+  bottom:calc(1.1vh + 18px);
+  justify-items: center;
+  align-items: center;
   
 }
 
