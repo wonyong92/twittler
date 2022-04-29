@@ -152,6 +152,8 @@ li.tweet.white{
   align-self: flex-end;
   position: relative;
   bottom:3vh;
+  justify-content: center;
+  align-content: center;
   
 }
 
